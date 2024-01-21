@@ -18,5 +18,6 @@ const galleryList = document.querySelector(".gallery");
       <img class="img" src="${image.url}" alt="${image.alt}">
     </li>`);
     
+    
     galleryList.insertAdjacentHTML('beforeend', markup);
     console.log(markup);
